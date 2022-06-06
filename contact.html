@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-slate-100  dark:bg-slate-900 text-gray-800 dark:text-white">
+  <div class="flex justify-center w-full px-6 border-blue-500 dark:border-blue-600 pt-12 min-h-screen" style="border-top-width: 2.5rem;">
+    <div class="max-w-3xl space-y-2 w-full flex flex-col">
+      <header class="flex justify-between">
+        <a class="cursor-pointer" href="./index.html">
+          <div class="space-y-2">
+            <h1 class="text-4xl font-black font-mono-custom">
+              Objective-C<span class="font-mono-custom">(asey)</span>
+            </h1>
+            <h1 class="text-gray-500 dark:text-gray-400 font-mono-custom">
+              Adventures in Mac Programming
+            </h1>
+          </div>
+        </a>
+        <div class="flex gap-2 h-full items-center font-medium font-mono-custom">
+          <div><a class="cursor-pointer px-2 py-1 hover:bg-slate-200 dark:hover:bg-slate-700 rounded" href="./about.html">About</a></div>
+          <div><a class="cursor-pointer text-white bg-orange-500 px-2 py-1 rounded" href="./contact.html">Contact</a></div>
+          <div><a class="cursor-pointer px-2 py-1 hover:bg-slate-200 dark:hover:bg-slate-700 rounded" href="./archive.html">Archive</a></div>
+        </div>
+      </header>
+      
+      <main class="flex-grow w-full h-full text-center align-middle" style="font-family: -apple-system, Helvetica;">
+        <hr class="my-10 border-orange-500" style="border-width: .1rem;" />
+        <div class="text-left">
+          <div class="space-y-6 mb-8">
+            <div class="flex items-end gap-2">
+              <img src="memoji.png" class="w-8" />
+              <p>I’m on Twitter <a class="cursor-pointer text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500 underline" href="http://twitter.com/ObjectiveCasey">@ObjectiveCasey</a> (personal account)</p>
+            </div>
+            <div class="flex items-end gap-2">
+              <img src="nativecrane.png" class="w-8" />
+              <p>You can follow news about my business <a class="cursor-pointer text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500 underline" href="http://twitter.com/NativeCraneApps">@NativeCraneApps</a></p>
+            </div>
+            <div class="flex items-end gap-2">
+              <img src="mail-light.png" class="w-8 block dark:hidden" />
+              <img src="mail-dark.png" class="w-8 hidden dark:block" />
+              <div class="flex items-center gap-2">
+                <span>Or reach out by email at</span>
+                <span class="font-mono py-1 px-2 text-sm rounded hidden dark:block border border-gray-600" style="background-color: #333333">
+                  <span style="color: #CC99FF">Text</span><span style="color: white">(</span><span style="color: #FF6666">"</span><span style="color: white">\(</span><span style="color: #66CCCC">firstName</span><span style="color: white">)</span><span style="color: #FF6666">@</span><span style="color: white">\(</span><span style="color: #66CCCC">domain</span><span style="color: white">)</span><span style="color: #FF6666">"</span><span style="color: white">)</span>
+                </span>
+                <span class="font-mono py-1 px-2 text-sm rounded block dark:hidden border border-gray-300" style="background-color: white">
+                  <span style="color: #330099">Text</span><span style="color: black">(</span><span style="color: #990000">"</span><span style="color: black">\(</span><span style="color: #336666">firstName</span><span style="color: black">)</span><span style="color: #990000">@</span><span style="color: black">\(</span><span style="color: #336666">domain</span><span style="color: black">)</span><span style="color: #990000">"</span><span style="color: black">)</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      
+      <footer class="pb-4 pt-16 font-mono-custom text-gray-500 dark:text-gray-400">
+        <div class="w-full flex justify-center text-xs flex items-center gap-2">
+          <span class="text-xl">©</span>
+          <span>2022 Casey Hanley</span>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
+
+<style>
+.font-mono-custom {
+  font-family: 'SF Mono', SFMono-Regular, ui-monospace, -apple-system
+}
+</style>
